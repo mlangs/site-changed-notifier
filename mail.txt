@@ -1,0 +1,5 @@
+my_notifier_mail_adress@provider.com
+my_notifier_password
+my_receiving_mail_adress@provider.com
+smtp.gmail.com
+465
