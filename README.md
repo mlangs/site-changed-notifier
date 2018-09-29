@@ -9,17 +9,17 @@ I wrote this little script to be aware when my professor adds new slots and ther
 
 
 ## what does my code do?
-In main.py is a while-loop to run the changed.py file 2 minutes after the start of the script and then after every 30 minutes.
+In main.py is a while-loop which runs the changed.py file 2 minutes after the start of the script and then after every 30 minutes.
 
 
-The changed.py file reads the URL from the url.txt file, opens the site and compared the site to the last saved version in site.txt. 
+The changed.py file reads the URL from the url.txt file, opens the site and compares the site to the last saved version in site.txt. 
 
-If the site is the same, it does nothing. But if the site changed, the email data from mail.txt gets loaded and only after successfuly sending an email the site.txt file gets updated. That means that if sending the email fails, the script does not update site.txt and therefore tries again in the next loop.
+If the site is the same, it does nothing. But if the site changed, the email data from mail.txt gets loaded and only after successfully sending an email, the site.txt file gets updated. That means, that if sending the email fails, the script does not update site.txt and therefore tries again in the next loop.
 
 
 
 ## how can i use it for myself?
-To use it yourself you just need replace the example URL in url.txt with your URL and adapt the mail.txt file.
+To use it yourself you just need to replace the example URL in url.txt with your URL and adapt the mail.txt file.
 The mail.txt file needs to include the following:
 
 
